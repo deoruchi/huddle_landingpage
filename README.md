@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [SOLUTION](https://github.com/kurokurotho/huddle_landingpage.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [LIVE SITE](https://github.com/kurokurotho/huddle_landingpage/deployments/activity_log?environment=github-pages)
 
 ## My process
 
