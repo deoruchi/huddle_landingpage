@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: url(images/bg-mobile.svg) no-repeat 50% 0%,hsl(257, 40%, 49%);
+    background-size: 100%;
+    margin:10%;
+}
+
+
+main{
+    text-align: center;
+}
+.logo{
+    width: 40%;
+}
+.mockups{
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    
+}
+
+/*for mid sections*/
+.sec-1{
+    color: white;
+}
+.sec-1 h1 ,.sec-1 button{
+    margin:5% 0;
+}
+
+.sec-1 h1{
+    line-height: 2rem;
+}
+
+.sec-1 p{
+    opacity: 0.8;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.sec-1 button{
+    width: 60%;
+    padding: 3%;
+    border:0 transparent;
+    color: hsl(257, 40%, 49%);
+    border-radius: 50px;
+}
+
+.sec-1 button:hover{
+    background-color:white;
+    color: hsl(257, 40%, 49%);
+    border:0 transparent;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+}
+
+.icon{
+    width: 1.5rem;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1.5%;
+    color: white;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+@media screen and (min-width:1024px) {
+    body{
+        margin: 2%;
+    }
+    header{
+        width: 50%;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        position: relative;
+        transform: translateY(-10%);
+    }
+    section{
+        transform: translateY(18%);
+        
+    }
+    .mockups{
+        width: 50%;
+
+    }
+    .sec-1{
+        text-align: start;
+        margin: 5%;
+        font-size: 24px;
+        line-height: 1.5rem;
+    }
+    .icons{
+        margin-top:30% ;
+        justify-content: right;
+       
+    }
+    .icon{
+        width: 10%;
+        padding: 0.5%;
+        margin-left: 1.5%;
+    }
+  
+    
+}
